@@ -5,7 +5,6 @@ const Landing = () => {
   const navigate = useNavigate()
   return (
     <div>
-      hello
       <button onClick={() => navigate('/auth')}>Go to auth</button>
     </div>
   )
